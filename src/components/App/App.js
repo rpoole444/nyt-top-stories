@@ -7,9 +7,13 @@ import { apiCalls } from "../apiCalls";
 
 function App() {
   const [fetching, setFetch] = useState(false);
-  const [articles, setArticles] = useState(
-    JSON.parse(localStorage.getItem("articles")) || []
-  );
+  const [articles, setArticles] = useState(() => {
+    const storedArticles = localStorage.getItem("articles");
+    return storedArticles && storedArticles !== "undefined"
+      ? JSON.parse(storedArticles)
+      : [];
+  });
+
   const [category, setCategory] = useState("home");
   const [searchTerm, setSearchTerm] = useState("");
 

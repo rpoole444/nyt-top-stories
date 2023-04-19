@@ -22,7 +22,7 @@ const NewsFeed = ({
 
   return (
     <section>
-      <h2>NewsFeed</h2>
+      <h2>New York Times Top Stories</h2>
       <SearchBar
         onCategoryChange={onCategoryChange}
         onSearchTermChange={onSearchTermChange}

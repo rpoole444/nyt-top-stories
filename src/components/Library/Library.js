@@ -9,7 +9,6 @@ const Library = ({ articles }) => {
 
   return (
     <>
-      <h2>Library</h2>
       <section className="articles-container">{articleCards}</section>
     </>
   );
