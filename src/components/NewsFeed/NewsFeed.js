@@ -25,11 +25,12 @@ const NewsFeed = () => {
     setCategory(newCategory);
     setFetch(false);
   };
+
   return (
     <section>
       <h2>NewsFeed</h2>
       <SearchBar onCategoryChange={onCategoryChange} />
-      <Library />
+      <Library articles={articles} />
     </section>
   );
 };
