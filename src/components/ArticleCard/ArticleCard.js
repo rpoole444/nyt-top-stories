@@ -18,7 +18,7 @@ const ArticleCard = (props) => {
       </div>
       <h2 className="article-title">{props.title}</h2>
       <p className="article-section">Section: {props.section}</p>
-      <p className="article-subsection">SubSection: {props.subsection}</p>
+      <p className="article-subsection">{props.subsection}</p>
     </div>
   );
 };

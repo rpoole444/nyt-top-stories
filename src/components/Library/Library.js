@@ -16,10 +16,12 @@ const Library = ({ articles }) => {
   };
 
   return (
-    <section>
+    <>
       <h2>Library</h2>
-      {articles && determineRender()}
-    </section>
+      <section className="articles-container">
+        {articles && determineRender()}
+      </section>
+    </>
   );
 };
 
