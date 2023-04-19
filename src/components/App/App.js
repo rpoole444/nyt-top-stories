@@ -7,19 +7,23 @@ import { apiCalls } from "../apiCalls";
 
 function App() {
   const [fetching, setFetch] = useState(false);
-  const [articles, setArticles] = useState([]);
+  const [articles, setArticles] = useState(
+    JSON.parse(localStorage.getItem("articles")) || []
+  );
   const [category, setCategory] = useState("home");
 
   useEffect(() => {
-    console.log(category);
     if (!fetching) {
       apiCalls.getArticles(category).then((data) => {
         setArticles(data.results);
-        console.log("data", data);
         setFetch(true);
       });
     }
   }, [fetching, category]);
+
+  useEffect(() => {
+    localStorage.setItem("articles", JSON.stringify(articles));
+  }, [articles]);
 
   const onCategoryChange = (newCategory) => {
     setCategory(newCategory);
