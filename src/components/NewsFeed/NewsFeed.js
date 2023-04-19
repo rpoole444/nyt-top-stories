@@ -27,7 +27,7 @@ const NewsFeed = ({
         onCategoryChange={onCategoryChange}
         onSearchTermChange={onSearchTermChange}
       />
-      <Library articles={filteredArticles} searchTerm={searchTerm} />
+      <Library articles={filteredArticles} />
     </section>
   );
 };
