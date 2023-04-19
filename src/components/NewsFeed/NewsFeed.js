@@ -1,14 +1,33 @@
-import React from "react";
+import React, { useState } from "react";
 import "./NewsFeed.css";
 import SearchBar from "../SearchBar/SearchBar";
 import Library from "../Library/Library";
 
-const NewsFeed = ({ onCategoryChange, articles }) => {
+const NewsFeed = ({
+  onCategoryChange,
+  articles,
+  onSearchTermChange,
+  searchTerm,
+}) => {
+  const filterArticles = () => {
+    if (!searchTerm) {
+      return articles;
+    }
+    return articles.filter((article) =>
+      article.title.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+  };
+
+  const filteredArticles = filterArticles();
+
   return (
     <section>
       <h2>NewsFeed</h2>
-      <SearchBar onCategoryChange={onCategoryChange} />
-      <Library articles={articles} />
+      <SearchBar
+        onCategoryChange={onCategoryChange}
+        onSearchTermChange={onSearchTermChange}
+      />
+      <Library articles={filteredArticles} searchTerm={searchTerm} />
     </section>
   );
 };
