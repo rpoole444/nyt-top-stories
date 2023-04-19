@@ -11,6 +11,7 @@ function App() {
     JSON.parse(localStorage.getItem("articles")) || []
   );
   const [category, setCategory] = useState("home");
+  const [searchTerm, setSearchTerm] = useState("");
 
   useEffect(() => {
     if (!fetching) {
@@ -24,6 +25,10 @@ function App() {
   useEffect(() => {
     localStorage.setItem("articles", JSON.stringify(articles));
   }, [articles]);
+
+  const onSearchTermChange = (newSearchTerm) => {
+    setSearchTerm(newSearchTerm);
+  };
 
   const onCategoryChange = (newCategory) => {
     setCategory(newCategory);
@@ -41,6 +46,8 @@ function App() {
               <NewsFeed
                 articles={articles}
                 onCategoryChange={onCategoryChange}
+                onSearchTermChange={onSearchTermChange}
+                searchTerm={searchTerm}
               />
             );
           }}
