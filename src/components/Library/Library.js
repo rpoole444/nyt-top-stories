@@ -7,20 +7,10 @@ const Library = ({ articles }) => {
     <ArticleCard key={index} id={index} {...el} />
   ));
 
-  const determineRender = () => {
-    return articleCards.length > 0 ? (
-      articleCards
-    ) : (
-      <p>No Articles Available</p>
-    );
-  };
-
   return (
     <>
       <h2>Library</h2>
-      <section className="articles-container">
-        {articles && determineRender()}
-      </section>
+      <section className="articles-container">{articleCards}</section>
     </>
   );
 };
