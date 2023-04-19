@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./NewsFeed.css";
 import SearchBar from "../SearchBar/SearchBar";
 import Library from "../Library/Library";
