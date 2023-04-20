@@ -74,7 +74,7 @@ I hope you have fun using NYT - Top Stories!!
   
 ## Deployed Link
 
-[Click here to view deployed app on Vercel](https://grant-guru-fe.vercel.app/)
+[Click here to view deployed app on Vercel](https://nyt-top-stories.vercel.app/)
 
 ---
 
@@ -83,7 +83,7 @@ I hope you have fun using NYT - Top Stories!!
 
 ![Screenshot 2023-04-20 at 10 22 20 AM](https://user-images.githubusercontent.com/111818942/233412709-55b9a18a-d1d7-4ac3-b024-5ffc63a655c0.png)
 ![Screenshot 2023-04-20 at 10 23 24 AM](https://user-images.githubusercontent.com/111818942/233412938-24146fa3-cdf4-4cdf-a5a9-00bb3dcc5217.png)
-![Screenshot 2023-04-20 at 10 24 11 AM](https://user-images.githubusercontent.com/111818942/233413147-4719010e-f548-41e9-b19f-94d4221b4220.png)
+![Screenshot 2023-04-20 at 10 26 23 AM](https://user-images.githubusercontent.com/111818942/233413751-5524b3c2-0d3d-4e97-a524-3921f32cb864.png)
 ![Screenshot 2023-04-20 at 10 24 40 AM](https://user-images.githubusercontent.com/111818942/233413256-42c6456f-d1f3-4598-adc1-a14d7ebf30c4.png)
 
 
