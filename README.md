@@ -1,70 +1,120 @@
-# Getting Started with Create React App
+<div align="center">
+<h1> NYT's Top Stories </h1>
+</div>
+  <p align="center">
+    <a href="[https://github.com/grant-guru/grant-guru-fe](https://github.com/rpoole444/nyt-top-stories)"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/rpoole444/nyt-top-stories/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/rpoole444/nyt-top-stories/issues">Request Feature</a>
+  </p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+</div>
 
-## Available Scripts
+<div align="center">
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+[Abstract](#abstract) ~
+[Installation Instructions](#installation-instructions) ~
+[Deployed Link](#deployed-link) ~
+[Preview of App](#preview-of-app) ~
+[Technologies](#technologies) ~
+[Contributors](#contributors) ~
+[Sources](#sources)~
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+</div>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<div align="center">
 
-### `npm test`
+## Abstract:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[//]: <> (Briefly describe what you built and its features. What problem is the app solving? How does this application solve that problem?)
 
-### `npm run build`
+New York Times Top Stories, is an application that allows a user to explore the New York Times daily Top Stories all in one application! Using the NYTs Top Stories API, On Load you'll be taken to the home page and the news will be set to the "Home" category, and you'll see all of the top stories from NYT's Home page. From there a user is able to scroll through the articles.  A user is able to change the category and the news articles will switch to the relevant category. Additionally, form any category a user is able to filter through the titles of the news for keywords. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The app incorporates a responsive layout and will change its structure to fit both large and mobile displays. It was built using functional React Hooks, Controlled form pattern, React Router.  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+i built this in 7 hours as part of Turing School of Software and Design's 4th quarter's take home mock interview.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+ In the near future, I plan to add  End-To-End Testing using Cypress where fetch requests are stubbed with fixtures and sad paths are tested to ensure intended execution. I plan to add more industry styled CSS. Finally I would like to add more NYT api's to this app like the the Most Popular Api and the Book Api!
+  
+I hope you have fun using NYT - Top Stories!!
 
-### `npm run eject`
+ 
+  
+</div>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Installation Instructions:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+[//]: <> (What steps does a person have to take to get your app cloned down and running?)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Fork the Repo from the [Repository](https://github.com/rpoole444/nyt-top-stories)
+2. Clone the repo
+   ```sh
+   git clone https://github.com/rpoole444/nyt-top-stories
+   ```
+3. Install NPM packages
+   ```sh
+   npm install
+   ```
+4. Run npm start
+   ```sh
+   npm start
+   ```
+5. Use the Link that is given in the Terminal & Open in Browser
+   ```sh
+   Example: http://localhost:3000/
+   ```
 
-## Learn More
+---
+  
+## Deployed Link
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[Click here to view deployed app on Vercel](https://nyt-top-stories.vercel.app/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## Preview of App:
+[//]: <> (Provide ONE gif or screenshot of your application - choose the "coolest" piece of functionality to show off.)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![Screenshot 2023-04-20 at 10 22 20 AM](https://user-images.githubusercontent.com/111818942/233412709-55b9a18a-d1d7-4ac3-b024-5ffc63a655c0.png)
+![Screenshot 2023-04-20 at 10 23 24 AM](https://user-images.githubusercontent.com/111818942/233412938-24146fa3-cdf4-4cdf-a5a9-00bb3dcc5217.png)
+![Screenshot 2023-04-20 at 10 26 23 AM](https://user-images.githubusercontent.com/111818942/233413751-5524b3c2-0d3d-4e97-a524-3921f32cb864.png)
+![Screenshot 2023-04-20 at 10 24 40 AM](https://user-images.githubusercontent.com/111818942/233413256-42c6456f-d1f3-4598-adc1-a14d7ebf30c4.png)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## Technologies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<div>
+  <img src="https://img.shields.io/badge/-react-333333?logo=react&style=for-the-badge" width="100" height="30"/>
+  <img src="https://img.shields.io/badge/-react%20router-f44250?logo=react%20router&logoColor=white&style=for-the-badge" width="140" height="30"/>
+  <img src="https://img.shields.io/badge/-CSS3-315780?logo=css3&style=for-the-badge" width="100" height="30"/>
+  <img src="https://img.shields.io/badge/-npm-c12127?logo=npm&logoColor=white&style=for-the-badge" width="80"  height="30"/>
+</div>
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Contributors:
 
-### Deployment
+[//]: <> (Who worked on this application? Link to their GitHubs.)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<div>
+  <p><strong>Connect with:</strong></p>
+  <img src="https://img.shields.io/badge/Reid%20Poole-Front--End-orange" height="40" width="150">
+  <a href="https://www.linkedin.com/in/reid-poole/"> 
+    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
+  </a>
+  <a href="https://github.com/rpoole444">
+    <img src="https://img.shields.io/badge/-github-black?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Badge">
+  </a>
+  <a href="mailto: poole.reid@gmail.com">
+    <img src="https://img.shields.io/badge/-gmail-red?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail Badge">
+  </a>
+</div>
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
