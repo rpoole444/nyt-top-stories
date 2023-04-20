@@ -1,13 +1,13 @@
 <div align="center">
-<h1> Grant Guru </h1>
+<h1> NYT's Top Stories </h1>
 </div>
   <p align="center">
-    <a href="https://github.com/grant-guru/grant-guru-fe"><strong>Explore the docs »</strong></a>
+    <a href="[https://github.com/grant-guru/grant-guru-fe](https://github.com/rpoole444/nyt-top-stories)"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/grant-guru/grant-guru-fe/issues">Report Bug</a>
+    <a href="https://github.com/rpoole444/nyt-top-stories/issues">Report Bug</a>
     ·
-    <a href="https://github.com/grant-guru/grant-guru-fe/issues">Request Feature</a>
+    <a href="https://github.com/rpoole444/nyt-top-stories/issues">Request Feature</a>
   </p>
 
 </div>
@@ -23,7 +23,6 @@
 [Technologies](#technologies) ~
 [Contributors](#contributors) ~
 [Sources](#sources)~
-[BE Repo](https://github.com/grant-guru/grant_guru_be)
 
 </div>
 
@@ -33,13 +32,15 @@
 
 [//]: <> (Briefly describe what you built and its features. What problem is the app solving? How does this application solve that problem?)
 
-Grant Guru  is an application that allows a user to explore a database full of Scholarship and grant applications to Help students find fincial aid with ease!  On Load you can choose a profile or user to demo the site with, after your choice you are taken to a form with inputs where you will choose your search preference for the types of scholarships you are looking for.  Upon submition of the form, queries are sent to our backend where they filter the array of scholarships to fit the parameters and send us the filtered scholarships.  From there a user is able to scroll through the filtered scholarships.  A user is able to add and delete scholarships to and from their saved window.  If a user wishes to modify their search, simply direct yourself to the form and refill out the form for a modified search of the parameters. 
+New York Times Top Stories, is an application that allows a user to explore the New York Times daily Top Stories all in one application! Using the NYTs Top Stories API, On Load you'll be taken to the home page and the news will be set to the "Home" category, and you'll see all of the top stories from NYT's Home page. From there a user is able to scroll through the articles.  A user is able to change the category and the news articles will switch to the relevant category. Additionally, form any category a user is able to filter through the titles of the news for keywords. 
 
-The app incorporates a responsive layout and will change its structure to fit both large and mobile displays. It was built using functional React Hooks, Typescript, controlled form pattern, React Router, Redux State Management. It uses End-To-End Testing using Cypress where fetch requests are stubbed with fixtures and sad paths are tested to ensure intended execution. 
+The app incorporates a responsive layout and will change its structure to fit both large and mobile displays. It was built using functional React Hooks, Controlled form pattern, React Router.  
 
-We built this over 3 days as part of Turing School of Software and Design's 4th quarter's Capstone project.
+i built this in 7 hours as part of Turing School of Software and Design's 4th quarter's take home mock interview.
 
-I hope you have fun using Grant Guru!
+ In the near future, I plan to add  End-To-End Testing using Cypress where fetch requests are stubbed with fixtures and sad paths are tested to ensure intended execution. I plan to add more industry styled CSS. Finally I would like to add more NYT api's to this app like the the Most Popular Api and the Book Api!
+  
+I hope you have fun using NYT - Top Stories!!
 
  
   
@@ -51,10 +52,10 @@ I hope you have fun using Grant Guru!
 
 [//]: <> (What steps does a person have to take to get your app cloned down and running?)
 
-1. Fork the Repo from the [Repository](https://github.com/grant-guru/grant-guru-fe)
+1. Fork the Repo from the [Repository](https://github.com/rpoole444/nyt-top-stories)
 2. Clone the repo
    ```sh
-   git clone https://github.com/grant-guru/grant-guru-fe
+   git clone https://github.com/rpoole444/nyt-top-stories
    ```
 3. Install NPM packages
    ```sh
@@ -80,7 +81,10 @@ I hope you have fun using Grant Guru!
 ## Preview of App:
 [//]: <> (Provide ONE gif or screenshot of your application - choose the "coolest" piece of functionality to show off.)
 
-![Screen Recording - 6 April 2023](https://user-images.githubusercontent.com/111818942/230463892-75b499d4-e3a6-475a-b9df-89940440fc3e.gif)
+![Screenshot 2023-04-20 at 10 22 20 AM](https://user-images.githubusercontent.com/111818942/233412709-55b9a18a-d1d7-4ac3-b024-5ffc63a655c0.png)
+![Screenshot 2023-04-20 at 10 23 24 AM](https://user-images.githubusercontent.com/111818942/233412938-24146fa3-cdf4-4cdf-a5a9-00bb3dcc5217.png)
+![Screenshot 2023-04-20 at 10 24 11 AM](https://user-images.githubusercontent.com/111818942/233413147-4719010e-f548-41e9-b19f-94d4221b4220.png)
+![Screenshot 2023-04-20 at 10 24 40 AM](https://user-images.githubusercontent.com/111818942/233413256-42c6456f-d1f3-4598-adc1-a14d7ebf30c4.png)
 
 
 ---
@@ -88,11 +92,8 @@ I hope you have fun using Grant Guru!
 ## Technologies
 
 <div>
-  <img src="https://img.shields.io/badge/TS-Typescript-blue" width="100" height="30" >
-  <img src="https://img.shields.io/badge/RDX-Redux-orange" width="100" height="30">
   <img src="https://img.shields.io/badge/-react-333333?logo=react&style=for-the-badge" width="100" height="30"/>
   <img src="https://img.shields.io/badge/-react%20router-f44250?logo=react%20router&logoColor=white&style=for-the-badge" width="140" height="30"/>
-  <img src="https://img.shields.io/badge/-cypress-007780?logo=cypress&logoColor=white&style=for-the-badge" width="100" height="30"/>
   <img src="https://img.shields.io/badge/-CSS3-315780?logo=css3&style=for-the-badge" width="100" height="30"/>
   <img src="https://img.shields.io/badge/-npm-c12127?logo=npm&logoColor=white&style=for-the-badge" width="80"  height="30"/>
 </div>
@@ -113,48 +114,6 @@ I hope you have fun using Grant Guru!
     <img src="https://img.shields.io/badge/-github-black?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Badge">
   </a>
   <a href="mailto: poole.reid@gmail.com">
-    <img src="https://img.shields.io/badge/-gmail-red?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail Badge">
-  </a>
-</div>
-</br>
-<div>
-  <p><strong>Connect with:</strong></p>
-  <img src="https://img.shields.io/badge/Kennan%20Southall-Front--End-blue" height="40" width="150">
-  <a href="https://www.linkedin.com/in/keenan-southall/"> 
-    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
-  </a>
-  <a href="https://github.com/keenans1">
-    <img src="https://img.shields.io/badge/-github-black?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Badge">
-  </a>
-  <a href="mailto: keenansouthall67@gmail.com">
-    <img src="https://img.shields.io/badge/-gmail-red?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail Badge">
-  </a>
-</div>
-</br>
-<div>
-  <p><strong>Connect with:</strong></p>
-  <img src="https://img.shields.io/badge/Adam%20Hughes-Front--End-red" height="40" width="150">
-  <a href="https://www.linkedin.com/in/front-end-adam/"> 
-    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
-  </a>
-  <a href="https://github.com/ajh0050">
-    <img src="https://img.shields.io/badge/-github-black?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Badge">
-  </a>
-  <a href="mailto: adamjordanhughes@gmail.com">
-    <img src="https://img.shields.io/badge/-gmail-red?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail Badge">
-  </a>
-</div>
-</br>
-<div>
-  <p><strong>Connect with:</strong></p>
-  <img src="https://img.shields.io/badge/Jocelle%20Bautista-Front--End-purple" height="40" width="150">
-  <a href="https://www.linkedin.com/in/jocelle-bautista/"> 
-    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
-  </a>
-  <a href="https://github.com/baut-jc">
-    <img src="https://img.shields.io/badge/-github-black?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Badge">
-  </a>
-  <a href="mailto: jocellebautista@gmail.com">
     <img src="https://img.shields.io/badge/-gmail-red?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail Badge">
   </a>
 </div>
