@@ -109,17 +109,20 @@ I hope you have fun using NYT - Top Stories!!
 
 [//]: <> (Who worked on this application? Link to their GitHubs.)
 
-<div>
+<div align="center">
   <p><strong>Connect with:</strong></p>
-  <img src="https://img.shields.io/badge/Reid%20Poole-Front--End-orange" height="40" width="150">
-  <a href="https://www.linkedin.com/in/reid-poole/"> 
-    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
-  </a>
-  <a href="https://github.com/rpoole444">
-    <img src="https://img.shields.io/badge/-github-black?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Badge">
-  </a>
-  <a href="mailto: poole.reid@gmail.com">
-    <img src="https://img.shields.io/badge/-gmail-red?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail Badge">
-  </a>
+  <div style="display: flex; justify-content: center;">
+    <img src="https://user-images.githubusercontent.com/111818942/233493369-1b94cce7-0813-4dbc-aff0-046afef9b78d.jpg" height="150" width="150">
+  </div>
+  <div style="display: flex; justify-content: center; gap: 10px;">
+    <a href="https://www.linkedin.com/in/reid-poole/"> 
+      <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
+    </a>
+    <a href="https://github.com/rpoole444">
+      <img src="https://img.shields.io/badge/-github-black?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Badge">
+    </a>
+    <a href="mailto: poole.reid@gmail.com">
+      <img src="https://img.shields.io/badge/-gmail-red?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail Badge">
+    </a>
+  </div>
 </div>
-
