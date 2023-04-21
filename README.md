@@ -80,10 +80,15 @@ I hope you have fun using NYT - Top Stories!!
 
 ## Preview of App:
 [//]: <> (Provide ONE gif or screenshot of your application - choose the "coolest" piece of functionality to show off.)
+  
+![Screenshot 2023-04-21 at 10 34 38 AM](https://user-images.githubusercontent.com/111818942/233677046-478bf309-9bb8-4fb8-9400-3521cc45c6a7.png)
 
 ![Screenshot 2023-04-20 at 10 22 20 AM](https://user-images.githubusercontent.com/111818942/233412709-55b9a18a-d1d7-4ac3-b024-5ffc63a655c0.png)
+  
 ![Screenshot 2023-04-20 at 10 23 24 AM](https://user-images.githubusercontent.com/111818942/233412938-24146fa3-cdf4-4cdf-a5a9-00bb3dcc5217.png)
+  
 ![Screenshot 2023-04-20 at 10 26 23 AM](https://user-images.githubusercontent.com/111818942/233413751-5524b3c2-0d3d-4e97-a524-3921f32cb864.png)
+  
 ![Screenshot 2023-04-20 at 10 24 40 AM](https://user-images.githubusercontent.com/111818942/233413256-42c6456f-d1f3-4598-adc1-a14d7ebf30c4.png)
 
 
